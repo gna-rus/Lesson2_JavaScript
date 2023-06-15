@@ -1,1 +1,1 @@
-# Lesson2_JavaScript
+# Lesson3_JavaScript
