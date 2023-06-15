@@ -9,17 +9,17 @@
 
         function click_of_btn1(){
         let box1 = document.getElementsByClassName("list1");
+         // меняю цвет рамки на случайны цвет
         for (let i = 0; i < box1.length; i++) {
             element = box1[i];
             element.style.border = `2px solid ${getRandomColor()}`;
         }
-        let box2 = document.getElementsByClassName("a1");
-        for (let i = 0; i < box2.length; i++) {
-            element1 = box2[i];
-            element1.classList.add("href");
+        // отключаю каждую ссылку
+        let box2 = document.getElementsByClassName('a1');
+        for (let i = 0; i < box2.length; i++)
+        {
+            box2[i].classList.toggle("isDisabled");
         }
-
-
 
         }
 

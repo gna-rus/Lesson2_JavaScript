@@ -1,0 +1,41 @@
+
+h1, h2 {
+    color: green;
+    font-size: 45px;
+    margin: 0;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+h3, h4 {
+    color: green;
+    font-size: 25px;
+    margin: 0;
+}
+
+hr{
+    background-color: green;
+    height: 3px;
+}
+
+.title {
+    color: darkorange;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;}
+
+.wrapper_head{
+display: inline-block;
+}
+
+p {
+    color: #000080;
+    padding: 2px;
+}
+
+p:hover {
+    color: #FFFAC0;
+}
+

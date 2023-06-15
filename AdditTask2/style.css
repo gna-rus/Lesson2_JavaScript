@@ -64,3 +64,11 @@ display: inline-block;
 color: blue;
 }
 
+.isDisabled {
+      pointer-events: none;
+      cursor: default;
+      text-decoration: none;
+      color: #000000;
+}
+
+
